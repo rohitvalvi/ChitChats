@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ece5dd;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #075e54;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.update-btn {
+    background: #25d366; /* WhatsApp green */
+    color: white;
+}
+
+.update-btn:hover {
+    background: #128c7e;
+}
+
+.back-btn {
+    background: #ddd;
+    color: #333;
+}
+
+.back-btn:hover {
+    background: #bbb;
+}

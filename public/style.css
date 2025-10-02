@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d2cfcc;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #075e54;
+}
+
+.chats {
+    background: #fff;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.msg {
+    background: #dcf8c6;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+.new-chat-btn {
+    background: #746c6c;       /* WhatsApp green */
+    color: white;
+    border: none;
+    padding: 14px 30px;        /* Bigger button */
+    border-radius: 8px;        /* Rounded corners */
+    font-size: 18px;           /* Larger text */
+    font-weight: bold;
+    cursor: pointer;
+    display: block;            /* Makes it take full width control */
+    margin: 20px auto;         /* Centers the button */
+    transition: background 0.3s ease;
+}
+
+.new-chat-btn:hover {
+    background: #128c7e;       /* Darker green on hover */
+}
+
+
