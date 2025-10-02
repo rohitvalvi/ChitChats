@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 
 main().then((res) => {
-    console.log("Connection successfull");
+    console.log("Connection successfull.");
 })
     .catch(err => console.log(err));
 
